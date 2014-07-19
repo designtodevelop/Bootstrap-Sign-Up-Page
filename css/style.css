@@ -1,0 +1,7 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+	.navbar-wrapper {
+    	margin-top: 20px;
+  	}
+}

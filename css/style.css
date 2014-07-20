@@ -1,7 +1,59 @@
+h1, h2, h3, h4, h5, h6,legend {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+#intro {
+	padding: 2em 0;
+	background-color: #59a3fc;
+	color: #efefef;
+}
+.sign-up-form {
+	padding: 1em;
+	background:rgba(255,255,255,0.3);
+  	-pie-background:rgba(255,255,255,0.3);
+  	 border-radius:5px
+}
+.sign-up-form legend {
+	color: #efefef;
+}
+.checkbox {
+	padding-bottom: 1em;
+}
+.sign-up-form input {
+	margin-bottom: 1em;
+}
+#features article {
+	padding: 2em 0;
+}
+.feature-odd {
+	background-color: #f7f7f7;
+}
+#contact-us {
+	padding-bottom: 1em;
+	color: #3b3b3b;
+	background: url("../img/contact-us-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+footer {
+	padding-top: 1em;
+}
+footer ul li {
+	list-style: none;
+	display: inline;
+	border-right: 1px dotted #59a3fc;
+	padding: 0 15px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
 	.navbar-wrapper {
-    	margin-top: 20px;
+    	padding-top: 20px;
   	}
+  	.sign-up-form {
+  		margin-top: 5em;
+  	}
+  	#features h2 {
+		margin-top: 2em;
+	}
 }

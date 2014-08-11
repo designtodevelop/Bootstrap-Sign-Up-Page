@@ -10,8 +10,7 @@ h1, h2, h3, h4, h5, h6,legend {
 .sign-up-form {
 	padding: 1em;
 	background:rgba(255,255,255,0.3);
-  	-pie-background:rgba(255,255,255,0.3);
-  	 border-radius:5px
+  	border-radius:5px
 }
 .sign-up-form legend {
 	color: #efefef;
